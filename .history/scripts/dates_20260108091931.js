@@ -1,0 +1,1 @@
+const sch = document.querySelector('#time');

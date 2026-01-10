@@ -1,0 +1,10 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    width: 900px;
+    padding: 10px;
+}
+header{
+    display:grid;
+    grid-template-columns: 24px auto 44px;
+}
+header

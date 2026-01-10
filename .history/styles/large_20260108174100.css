@@ -1,0 +1,30 @@
+@media only screen and (min-width: 600px) {
+    import React from 'react'
+    import { Link, useNavigate } from 'react-router-dom'
+    
+    const Header = ({ isAuth, setIsAuth }) => {
+        const navigate = useNavigate()
+        const logout = () => {
+            fetch('http://api-shop.alabuga.space/api-shop/logout', {
+                headers: {
+                    'Authorization': 'Bearer ' + localStorage.getItem('token')
+                }
+            }).then((res) => {
+                if (!res.ok) {
+                    return Promise.reject(res)
+                }
+                return res.json()
+            }).then(() => {
+                setIsAuth(false)
+                localStorage.clear()
+                navigate('/')
+            })
+        }
+        re
+    .hamburger {
+        display: none;
+    }
+    nav.beta {
+        display: block;
+    }
+}

@@ -1,0 +1,2 @@
+const schedule = document.querySelector('#current-year');
+sch

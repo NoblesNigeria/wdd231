@@ -1,0 +1,11 @@
+@media only screen and (min-width: 38rem) {
+    header, main, nav,footer{
+        max-width: 850;
+    }
+    .hamburger {
+        display: none;
+    }
+    nav.beta {
+        display: block;
+    }
+};

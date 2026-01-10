@@ -1,0 +1,45 @@
+@media only screen and (min-width: 600px) {
+    import React from 'react'
+    import { Link, useNavigate } from 'react-router-dom'
+    
+    const Header = ({ isAuth, setIsAuth }) => {
+        const navigate = useNavigate()
+        const logout = () => {
+            fetch('http://api-shop.alabuga.space/api-shop/logout', {
+                headers: {
+                    'Authorization': 'Bearer ' + localStorage.getItem('token')
+                }
+            }).then((res) => {
+                if (!res.ok) {
+                    return Promise.reject(res)
+                }
+                return res.json()
+            }).then(() => {
+                setIsAuth(false)
+                localStorage.clear()
+                navigate('/')
+            })
+        }
+        return (
+            <header>
+                <div class="d-flex flex-column flex-md-row align-items-center pb-3 mb-4 border-bottom">
+                    <Link to="/" class="d-flex align-items-center text-dark text-decoration-none">
+                        <span class="fs-4">«MyShop»</span>
+                    </Link>
+    
+                    <nav class="d-inline-flex mt-2 mt-md-0 ms-md-auto">
+                        {isAuth ? <>                    <Link class="me-3 py-2 text-dark text-decoration-none" to="/orders">Мои заказы</Link>
+                            <Link class="me-3 py-2 text-dark text-decoration-none" to="/cart">Корзина</Link>
+                            <span class="me-3 py-2 text-dark text-decoration-none" style={{ cursor: 'pointer' }} onClick={logout}>Выход</span></> : <>
+                            <Link class="me-3 py-2 text-dark text-decoration-none" to="/signup">Регистрация</Link>
+                            <Link class="me-3 py-2 text-dark text-decoration-none" to="/login">Авторизация</Link></>}
+                    </nav>
+                </div>
+            </header>
+    .hamburger {
+        display: none;
+    }
+    nav.beta {
+        display: block;
+    }
+}

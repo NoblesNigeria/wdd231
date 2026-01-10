@@ -1,0 +1,14 @@
+@media only screen and (max-width: 600px) {
+    body{
+        grid-template-columns: auto;
+    }
+    .hamburger {
+        display: none;
+    }
+    nav.beta {
+        display: block;
+    }
+    nav.beta{
+        display: flex;
+    }
+};

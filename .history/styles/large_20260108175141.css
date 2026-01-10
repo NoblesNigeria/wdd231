@@ -1,0 +1,14 @@
+@media only screen and (min-width: 600px) {
+    header{
+        grid-template-columns: auto;
+    }
+    .hamburger {
+        display: dis;
+    }
+    nav.beta {
+        display: none;
+    }
+    nav.beta{
+        display: flex;
+    }
+};

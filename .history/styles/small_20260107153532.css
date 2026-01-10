@@ -1,0 +1,15 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    width: 900px;
+    padding: 10px;
+}
+header{
+    display:grid;
+    grid-template-columns: 24px auto 44px;
+    columns: 10px;
+}
+header img{
+    grid-column: 1 / 2;
+    width: 100%;
+    height: auto;
+}
