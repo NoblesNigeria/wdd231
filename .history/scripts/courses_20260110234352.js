@@ -54,8 +54,8 @@ function renderCourses(courseArray) {
 
         const icon = document.createElement("span");
         icon.classList.add("icon");
-        icon.textContent = course.completed ? "✔" : "X";
-        icon.classList.add(course.completed ? "✔" : "X");
+        icon.textContent = course.completed ? "✔" : "❌";
+        icon.classList.add(course.completed ? "taken" : "not-taken");
 
         // Event handler for toggle
         icon.addEventListener("click", () => {
