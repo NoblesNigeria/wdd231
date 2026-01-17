@@ -66,8 +66,7 @@ button{
     border: none;
 }
 button:hover{
-    color: red;
-}
+    background-color: lightbl;
 footer{
     border-top: 1px solid black;
     padding-top: 5px;

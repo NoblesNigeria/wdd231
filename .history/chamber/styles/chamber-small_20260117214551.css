@@ -59,15 +59,7 @@ h2{
     text-align: center;
     color: green;
 }
-button{
-    padding:5px;
-    margin:5px;
-    cursor:pointer;
-    border: none;
-}
-button:hover{
-    color: red;
-}
+b
 footer{
     border-top: 1px solid black;
     padding-top: 5px;
