@@ -1,4 +1,4 @@
-const details = './data/members.json';
+const details = '/data/members.json';
 const cards = document.querySelector('#directory-entries');
 
 let allMembers = [];
