@@ -1,0 +1,16 @@
+{
+    "members": [
+        {
+        "name": "Havard Cinema",
+        "address": "123 Innovation Drive, Tech City",
+        "phone": "+123 456 7890",
+        "image-url": "images/myhero.jpg"
+        },
+        {
+        "name": "Tech Solutions",
+        "address": "456 Enterprise Ave, Business Town",
+        "phone": "+987 654 3210",
+        "image-url": "images/techsolutions.jpg"
+        },
+    ]
+}

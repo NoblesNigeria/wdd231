@@ -1,0 +1,34 @@
+{
+    const newMember.json= "{
+    "family-name": "Nwose",
+    "move-in-date": "2023-06-27",
+    "size-of-household": 5,
+    "family-members": [
+        {
+            "name": "Nwose Anthony",
+            "gender": "male",
+            "birthdate" : "1980-04-02"
+        },
+        {
+            "name": "Nwose Augusta",
+            "gender": "female",
+            "birthdate" : "1988-08-23"
+        },
+        {
+            "name": "Nwose Helaman",
+            "gender": "male",
+            "birthdate": "2017-01-13"
+        },
+        {
+            "name": "Nwose Hinckley",
+            "gender": "male",
+            "birthdate": "2018-04-16"
+        },
+        {
+            "name": "Nwose Brigham",
+            "gender": "male",
+            "birthdate": "2020-06-23"
+        }
+    ]
+}
+}";

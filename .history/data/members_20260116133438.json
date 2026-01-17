@@ -1,0 +1,32 @@
+{
+    {
+        "name": "Havard Cinema",
+        "address": "123 Innovation Drive, Benin City, Nigeria",
+        "phone": "+123 456 7890",
+        "image-url": "images/myhero.jpg",
+        "membership-level": "Gold"
+    },
+    {
+        "name": "Tech Solutions",
+        "address": "456 Enterprise Ave, Business Town Benin City, Nigeria",
+        "phone": "+987 654 3210",
+        "image-url": "images/website-image.jpg",
+        "membership-level": "Silver"
+    },
+    {
+        "name": "Green Gardens",
+        "address": "789 Greenway Blvd, Benin City, Nigeria",
+        "phone": "+234 9234 5673",
+        "image-url": "images/tour-images.jpg",
+        "membership-level": "Bronze"
+    },
+    {
+        "name": "Blue Ocean",
+        "address": "321 Ocean Drive, Benin City, Nigeria",
+        "phone": "+234 9087 6543",
+        "image-url": "images/aganufa-ashioye.",
+        "membership-level": "Gold"
+    }
+
+
+}

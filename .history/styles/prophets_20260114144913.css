@@ -1,0 +1,23 @@
+body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+header, footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+}
+img {
+    display:flex;
+    max-width: 100%;
+    align-items: center;
+}
+section#cards {2
+    display: grid;
+    grid-template-columns: ;
+    gap: 20px;
+    padding: 20px;
+}

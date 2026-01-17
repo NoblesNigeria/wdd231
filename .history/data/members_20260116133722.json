@@ -1,0 +1,53 @@
+{
+    {
+        "name": "Havard Cinema",
+        "address": "123 Innovation Drive, Benin City, Nigeria",
+        "phone": "+123 456 7890",
+        "image-url": "images/myhero.jpg",
+        "membership-level": "Gold"
+    },
+    {
+        "name": "Tech Solutions",
+        "address": "456 Enterprise Ave, Business Town Benin City, Nigeria",
+        "phone": "+987 654 3210",
+        "image-url": "images/website-image.jpg",
+        "membership-level": "Silver"
+    },
+    {
+        "name": "Green Gardens",
+        "address": "789 Greenway Blvd, Benin City, Nigeria",
+        "phone": "+234 9234 5673",
+        "image-url": "images/tour-images.jpg",
+        "membership-level": "Bronze"
+    },
+    {
+        "name": "Blue Ocean",
+        "address": "321 Ocean Drive, Benin City, Nigeria",
+        "phone": "+234 9087 6543",
+        "image-url": "images/aganufa-ashioye.jpg",
+        "membership-level": "Gold"
+    }
+    {
+        "name": "Sunrise Bakery",
+        "address": "654 Sunrise St, Benin City, Nigeria",
+        "phone": "+234 9123 4567",
+        "image-url": "images/sunrise-bakery.jpg",
+        "membership-level": "Silver"
+    }
+    {
+        "name": "City Fitness",
+        "address": "987 Fitness Ave, Benin City, Nigeria",
+        "phone": "+234 9345 6789",
+        "image-url": "images/enudi-.jpg",
+        "membership-level": "Bronze"
+    }
+    {
+        "name": "Nobles Kitchen",
+        "address": "159 Event Blvd, Benin City, Nigeria",
+        "phone": "+234 9456 7890",
+        "image-url": "images/ourfood.jpg",
+        "membership-level": "Gold"
+    }
+
+
+}

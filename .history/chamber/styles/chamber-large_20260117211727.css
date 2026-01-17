@@ -1,0 +1,21 @@
+@media only screen and (min-width: 38rem) {
+    body{
+        margin-left: 200px;
+         max-width: 900px;
+    }
+    header{
+        grid-template-columns: 24px auto;
+    }
+    .hamburger{
+        display:none;
+    }
+    .navigate{
+        display:flex;
+        flex-direction: row;
+    }
+    #directory-entries{
+        grid-template-columns: auto auto auto;
+    }
+    footer{}
+
+}

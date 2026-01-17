@@ -1,0 +1,65 @@
+body{
+    font-family: Arial, sans-serif;
+    margin-left: 20px;
+    padding: 0;
+}
+header{
+    display:grid;
+    grid-template-columns: 24px auto 44px;
+    gap:10px;
+    align-items:center;
+    background-color: lightgrey;
+}
+header img{
+    width:100%;
+    height:auto;
+}
+.hamburger{
+    border:none;
+    cursor:pointer;
+}
+.hamburger::before{
+    content: "\2630";
+    font-size: 32px;
+}
+#ham-btn{
+    font-size: 32px;
+    display:block;
+}
+#ham-btn::after{
+    content: 00D7;
+}
+nav ul{
+    list-style-type: none;
+    display:block;
+}
+nav a:hover{
+    color: purple;
+}
+main{
+    display:grid;
+    gap:10px;
+}
+footer{
+    display:grid;
+    border-top: 1px solid black;
+    padding-top: 5px;
+    align-items: center;
+}
+.contact{
+    grid-column: 1;
+    tex
+}
+.media{
+    display:flex;
+    gap:2px;
+    grid-column: 2;
+}
+.media a img{
+    width:44px;
+    height:44px;
+}
+.copy-right{
+    grid-column: 3;
+    text-align: center;
+}

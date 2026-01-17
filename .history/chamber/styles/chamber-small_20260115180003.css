@@ -1,0 +1,31 @@
+body{
+    font-family: Arial, sans-serif;
+    margin-left: 20px;
+    padding: 0;
+}
+header{
+    display:grid;
+    grid-template-columns: 24px auto 44px;
+    gap:10px;
+    align-items:center;
+    background-color: lightgrey;
+}
+header img{
+    width:100%;
+    height:auto;
+}
+.hamburger{
+    border:none;
+    cursor:pointer;
+}
+.hamburger::before{
+    content: "\2630";
+    font-size: 32px;
+}
+nav ul{
+    list-style-type: none;
+    display:block;
+}
+nav a:hover{
+    color: purple;
+}

@@ -1,0 +1,11 @@
+{
+    "members": [
+        {
+        "name": "Havard Cinema",
+        "address": "123 Innovation Drive, Tech City",
+        "phone": "+123 456 7890"
+        "image": "images/castle.webp",
+        },
+        {},
+    ]
+}

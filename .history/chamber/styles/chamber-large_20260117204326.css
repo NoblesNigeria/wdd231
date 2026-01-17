@@ -1,0 +1,12 @@
+@media only screen and (-width: 38rem) {
+    header{
+        grid-template-columns: 24px auto;
+    }
+    .hamburger{
+        display:none;
+    }
+    .navigate{
+        display:flex;
+    }
+
+}
