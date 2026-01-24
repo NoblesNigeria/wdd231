@@ -5,8 +5,8 @@
     }
     header{
         grid-template-columns: 24px auto;
-        font-size: 42px;
-        padding: 15px;
+        font-size: 42px
+        padding: 10px;
     }
     #navigation{
         display:block;
