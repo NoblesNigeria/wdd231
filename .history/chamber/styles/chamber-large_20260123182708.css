@@ -1,0 +1,53 @@
+@media only screen and (min-width: 38rem) {
+    body{
+        margin-left: 200px;
+         max-width: 900px;
+    }
+    header{
+        grid-template-columns: 24px auto;
+        font-size: 32px;
+        padding: 15px;
+    }
+    #navigation{
+        display:block;
+        padding: 5px;
+    }
+    .hamburger{
+        display:none;
+    }
+    .navigate ul{
+        display:flex;
+        flex-direction: row;
+        gap: 15px;
+    }
+    main{
+        grid-template-columns: auto auto auto;
+    }
+    .events{
+        grid-column: 1;
+        width:auto;
+    }
+    .weather{
+        grid-column: 2;
+        width: auto;
+    }
+    #members-container{
+        grid-column: 3;
+    }
+    footer{
+        display: grid;
+        grid-template-columns: auto auto auto;
+        align-items: center;
+    }
+    .contact{
+        grid-column: 1;
+    }
+    .media{
+        grid-column: 2;
+        justify-content: center;
+    }
+    .copy-right{
+        grid-column: 3;
+    }
+
+}
