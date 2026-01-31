@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="This is the business directory page for the Chamber of Commerce, We connect businesses and foster growth in our community.">
+    <meta name="author" content="Nwose Anthony">
+    <meta property="og:title" content="Evergreen Chamber of Commerce">
+    <meta property="og:description" content="Evergreen Chamber of Commerce - Connecting Businesses, Fostering Growth">
+    <meta property="og:image" content=" https://noblesnigeria.github.io/wdd231/chamber/images/image.jpg">
+    <meta property="og:url" content=" https://noblesnigeria.github.io/chamber/directory.html">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/chamber-small.css">
+    <link rel="stylesheet" href="styles/chamber-large.css">
+    <script src="scripts/chamber.js" defer></script>
+    <link rel="icon" href="favicon.ico">
+    <title>Join Evergreen Chamber Of Commerce</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <img src="images/book.svg" alt="Chamber Logo">
+        <span>Evergreen Chamber Of Commerce</span>
+        <button id="ham-btn" class="hamburger"></button>
+    </header>
+    <nav id="navigation" class="navigate">
+        <ul>
+            <li><a href=" https://noblesnigeria.github.io/wdd131/index.html">Home</a></li>
+            <li><a href="#">Directory</a></li>
+            <li><a href="#">Join</a></li>
+            <li><a href="#">Discover</a></li>
+        </ul>
+    </nav>
+    <main>
+        <form method="get" autocomplete="on" action="thankyou.html">
+            <fieldset>
+                <label for="name" id="name"></label>Full Name
+                <input type="text" name="name" autocomplete value="Name:" required*>
+                <label for="organizational title" name="organizational title" id="organizational title">organizational title</label>
+                <input type="text" name="organizational title" autocomplete value="organizational-title" pattern="[A-za-Z]" minlength="7">
+                <label for="email" id="email"></label>
+                <input type="text" name="email" autocomplete value="Email:" required*>
+                <label for="phone number" name="phone number">Phone Number</label>
+                <input type="number" name="phon number" autocomplete value="Phone Number">
+                <label for="organization's name" name="organization's name" id="organization's name">Organization's name</label>
+                <input type="text" name="organization's name" autocomplete value="Organization's name">
+                <label for="membership level" name="membership level" id="membership level"></label>
+                <select type="text" name="membership level"></select>
+                <option value="Gold">Gold</option>
+                <option value="Silver">Silver</option>
+                <option value="Bronze">Bronze</option>
+                <option value="Nor Profit Organization">N</option>
+                <button type="submit">submit</button>
+            </fieldset>
+
+
+        </form>
+    </main>
+    <footer>
+        <aside class="contact">
+            <h2>Evergreen</h2>
+            <p>9, Idara avenue off Imafidon street, Evboneka </p>
+            <p>Benin City, Edo State, Nigeria.</p>
+            <p>Phone: +234 838090539</p>
+            <p>Email:noblesnigeria@gmail.com</p>
+        </aside>
+        <aside class="media">
+            <a href="https://github.com/NoblesNigeria"><img src="images/facebook.svg" alt="facebook" width="100" height="100"></a>
+            <a href="https://github.com/NoblesNigeria"><img src="images/github.svg" alt="Github" width="100" height="100"></a>
+            <a href="https://github.com/NoblesNigeria"><img src="images/linkedin.svg" alt="Linkedin" width="100" height="100"></a>
+        </aside>
+        <aside class="copy-right">
+            <h2>WDD 231 Class Project</h2>
+            <h3>Nwose Anthony</h3>
+            <p>&copy; <span class="current-year"></span> Evergreen</p>
+            <p>Last modified: <span class="lastModified"></span></p>
+        </aside>
+    </footer>
+</body>
+</html>
