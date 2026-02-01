@@ -39,23 +39,23 @@
         <h1>The Join page Chambers of Commerce</h1>
         <form method="get" autocomplete="on" action="thankyou.html">
             <fieldset>
-                <label for="FirstName" >First Name
-                    <input type="text" name="FirstName" id="FirstName" autocomplete="givenName" required>
+                <label for="FirstName" id="FirstName" >First Name
+                    <input type="text" name="FirstName" autocomplete="givenName:" required>
                 </label>
-                <label for="lastName">Last Name
-                    <input type="text" name="lastName" id="lastName" autocomplete="familyName" required>
+                <label for="lastName" id="lastName">Last Name
+                    <input type="text" name="lastName" autocomplete="familyName" required>
                 </label>
-                <label for="organizational-title" >organizational title
-                    <input type="text" name="organizational-title" id="organizational-title" autocomplete="organizational-title" pattern="[A-za-Z]" minlength="7">
+                <label for="organizational-title" id="organizational-title">organizational title
+                    <input type="text" name="organizational-title" autocomplete="organizational-title" pattern="[A-za-Z]" minlength="7">
                 </label>
-                <label for="email" >Email
-                <input type="email" name="email" id="email" autocomplete="Email" placeholder="nobles@gmail.com" required>
+                <label for="email" id="email">Email
+                <input type="email" name="email" autocomplete="Email" placeholder="nobles@gmail.com" required>
                 </label>
-                <label for="phoneNumber"  >Phone Number
-                <input type="tel" name="phoneNumber" id="phoneNumber" autocomplete="tel" placeholder="Phone number" required>
+                <label for="phoneNumber" id="phoneNumber" >Phone Number
+                <input type="tel" name="phoneNumber" autocomplete="tel" placeholder="Phone number" required>
                 </label>
-                <label for="organization's-name" name="organization's-name" >Organization Name
-                <input type="text" name="organization's-name" id="organization's-name" autocomplete="Organization">
+                <label for="organization's-name" name="organization's-name" id="organization's-name">Organization Name
+                <input type="text" name="organization's-name" autocomplete="Organization">
                 </label>
                 <label for="membership-level" id="membership-level">
                     <select type="text" name="membership-level">
@@ -65,11 +65,11 @@
                         <option value="Nor Profit Organization">NPO</option>
                     </select>
                 </label>
-                <label for="organization" row="4"> Organization Description
-                    <textarea type="text" name="organization" id="organization" placeholder="description"></textarea>
+                <label for="organization" id="organization" row="4"> OrganizatioDescription
+                    <textarea type="message" name="organization" placeholder="description"></textarea>
                 </label>
-                <label for="timestamp" >
-                    <input type="hidden" name="timestamp" id="timestamp">
+                <label for="timestamp" id="timestamp">
+                    <input type="hidden" name="timestamp">
                 </label>
                 <button type="submit">submit</button>
             </fieldset>
