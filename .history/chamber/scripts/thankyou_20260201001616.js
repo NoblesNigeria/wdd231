@@ -9,3 +9,5 @@ const params = new URLSearchParams(window.location.search);
     document.getElementById("membership").textContent =
         params.get("membership") || "Not provided";
 
+
+    

@@ -39,33 +39,27 @@
         <form method="get" autocomplete="on" action="thankyou.html">
             <fieldset>
                 <label for="FirstName" id="FirstName">
-                    <input type="text" name="FirstName" autocomplete value="First Name:" required>
+                    <input type="text" name="FName" autocomplete value="Full Name:" required*>
                 </label>
-                <label for="lastName id=lastName">
-                    <input type="text" name="lastName" autocomplete value="Last Name">
-                </label>
-                <label for="organizational-title" name="organizational-title" id="organizational-title">
-                    <input type="text" name="organizational-title" autocomplete value="organizational title" pattern="[A-za-Z]" minlength="7">
+                <label for="organizational title" name="organizational title" id="organizational title">
+                    <input type="text" name="organizational title" autocomplete value="organizational-title" pattern="[A-za-Z]" minlength="7">
                 </label>
                 <label for="email" id="email">
-                <input type="text" name="email" autocomplete value="Email:" required>
+                <input type="text" name="email" autocomplete value="Email:" required*>
                 </label>
-                <label for="phoneNumber" name="phoneNumber">
-                <input type="number" name="phoneNumber" autocomplete value="Phone Number" placeholder="Phone number">
+                <label for="phone number" name="phone number">
+                <input type="number" name="phone number" autocomplete value="Phone Number" placeholder="Phone number">
                 </label>
-                <label for="organization's-name" name="organization's-name" id="organization's-name">
-                <input type="text" name="organization's-name" autocomplete value="Organization's name">
+                <label for="organization's name" name="organization's name" id="organization's name">
+                <input type="text" name="organization's name" autocomplete value="Organization's name">
                 </label>
-                <label for="membership-level" name="membership-level" id="membership-level">
-                    <select type="text" name="membership-level">
+                <label for="membership level" name="membership level" id="membership level">
+                    <select type="text" name="membership level">
                         <option value="Gold">Gold</option>
                         <option value="Silver">Silver</option>
                         <option value="Bronze">Bronze</option>
                         <option value="Nor Profit Organization">NPO</option>
                     </select>
-                </label>
-                <label for="timestamp" name="timestamp" id="timestamp">
-                    <input type="hidden" name="timestamp">
                 </label>
                 <button type="submit">submit</button>
             </fieldset>
