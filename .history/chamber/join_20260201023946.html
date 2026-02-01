@@ -39,34 +39,34 @@
         <h1>The Join page Chambers of Commerce</h1>
         <form method="get" autocomplete="on" action="thankyou.html">
             <fieldset>
-                <label for="first-name" >First Name
-                    <input type="text" name="first-name" id="first-name" autocomplete="given-name" required>
+                <label for="firstName" >First Name
+                    <input type="text" name="firstName" id="firstName" autocomplete="given-name" required>
                 </label>
-                <label for="last-name">Last Name
-                    <input type="text" name="last-name" id="last-name" autocomplete="family-name" required>
+                <label for="lastName">Last Name
+                    <input type="text" name="lastName" id="lastName" autocomplete="family-name" required>
                 </label>
-                <label for="organizational-title" >Organizational Title
+                <label for="organizational-title" >organizational title
                     <input type="text" name="organizational-title" id="organizational-title" autocomplete="organizational-title" pattern="[A-za-Z]" minlength="7">
                 </label>
-                <label for="email" >Email Address
+                <label for="email" >Email
                 <input type="email" name="email" id="email" autocomplete="email" placeholder="nobles@gmail.com" required>
                 </label>
                 <label for="phoneNumber"  >Tel
                 <input type="tel" name="phoneNumber" id="phoneNumber" autocomplete="tel" placeholder="Phone number" required>
                 </label>
-                <label for="organization's-name" >Organization Name
+                <label for="organization's-name" name="organization's-name" >Organization Name
                 <input type="text" name="organization's-name" id="organization's-name" autocomplete="organization">
                 </label>
-                <label for="membership-level" >
-                    <select name="membership-level" id="membership-level">
+                <label for="membership-level" id="membership-level">
+                    <select na="membership-level">
                         <option value="Gold">Gold</option>
                         <option value="Silver">Silver</option>
                         <option value="Bronze">Bronze</option>
                         <option value="Nor Profit Organization">NPO</option>
                     </select>
                 </label>
-                <label for="organization" > Organization Description
-                    <textarea type="text" name="organization" id="organization" placeholder="description" row="4"></textarea>
+                <label for="organization" row="4"> Organization Description
+                    <textarea type="text" name="organization" id="organization" placeholder="description"></textarea>
                 </label>
                 <label for="timestamp" >
                     <input type="hidden" name="timestamp" id="timestamp">
