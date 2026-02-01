@@ -10,5 +10,5 @@ const params = new URLSearchParams(window.location.search);
         params.get("membership") || "Not provided";
 
 
-document.getElementById('timestamp').value = new Date().toISOString();
+
 
