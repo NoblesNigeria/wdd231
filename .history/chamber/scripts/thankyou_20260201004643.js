@@ -11,7 +11,7 @@ const params = new URLSearchParams(window.location.search);
 
 
 document.addEventListener("DOMContentLoaded", () => {
-  const timestampInput = document.getElementById("timestamp");
+  const timestampInput = document.getElementById("loadTimestamp");
   timestampInput.value = new Date().toISOString();
 });
 
