@@ -26,13 +26,11 @@ p{
 span{
     color: red;
 }
-section{
+aside{
     display: grid;
-    grid-template-columns: 700px;
-}
-img{
-    display: flex;
-    width: 100%;
+    grid-template-columns: 750px;
+    border: 1px bold solid;
+    align-items: center;
 }
 
 footer{

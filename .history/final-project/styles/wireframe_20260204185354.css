@@ -28,11 +28,6 @@ span{
 }
 section{
     display: grid;
-    grid-template-columns: 700px;
-}
-img{
-    display: flex;
-    width: 100%;
 }
 
 footer{

@@ -26,14 +26,7 @@ p{
 span{
     color: red;
 }
-section{
-    display: grid;
-    grid-template-columns: 700px;
-}
-img{
-    display: flex;
-    width: 100%;
-}
+se
 
 footer{
     background-color: black;

@@ -1,4 +1,5 @@
 body {
+    display
     width: 800px;
     font-family: roboto sans-serif;
     margin-left: 200px;
@@ -26,15 +27,16 @@ p{
 span{
     color: red;
 }
-section{
+aside{
     display: grid;
     grid-template-columns: 700px;
+    border: 1px bold solid;
+    width:700px;
 }
-img{
+aside img{
     display: flex;
-    width: 100%;
+    width: 100%
 }
-
 footer{
     background-color: black;
     padding: 15px;

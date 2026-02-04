@@ -26,15 +26,16 @@ p{
 span{
     color: red;
 }
-section{
+aside{
     display: grid;
     grid-template-columns: 700px;
+    border: 1px bold solid;
+    width:700;
 }
-img{
-    display: flex;
-    width: 100%;
+aside img{
+    display:
+    width: 100%
 }
-
 footer{
     background-color: black;
     padding: 15px;
