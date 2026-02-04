@@ -1,0 +1,18 @@
+body {
+    width: 900px;
+    font-family: roboto sans-serif;
+}
+h1{
+    color: green;
+    text-align: center;
+    font-wei: 400;
+
+}
+h2{
+    color: green;
+    text-align: center;
+    
+}
+p{
+    font-weight: 100;
+}

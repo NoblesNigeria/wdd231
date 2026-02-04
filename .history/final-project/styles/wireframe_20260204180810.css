@@ -1,0 +1,41 @@
+body {
+    width: 800px;
+    font-family: roboto sans-serif;
+    margin-left: 200px;
+}
+header{
+    background-color: green;
+    padding: 10px;
+}
+h1{
+
+    text-align: center;
+    font-weight: 400 bold;
+
+
+}
+h2{
+    color: green;
+    text-align: center;
+    
+}
+p{
+    font-weight: 100 bold;
+    font-size: 1.2rem;
+}
+span{
+    color: red;
+}
+aside{
+    dis
+}
+img{
+    width: 600px;
+    height: 500px
+}
+footer{
+    background-color: black;
+    padding: 15px;
+    color: white;
+    text-align: center;
+}
