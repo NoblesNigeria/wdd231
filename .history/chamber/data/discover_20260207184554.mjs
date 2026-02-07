@@ -41,7 +41,7 @@
         "name": "Nobles Cinema",
         "address": "Anthony Nwose Center, Benin City, Nigeria",
         "description": "Place for fun, happiness and family time ",
-        "image": "images/castle.webp"
+        "image": "../images/castle.webp"
     },
     {
         "name": "Udo National Park",
