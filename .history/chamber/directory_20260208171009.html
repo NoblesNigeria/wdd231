@@ -13,8 +13,6 @@
     <link rel="stylesheet" href="styles/chamber-small.css">
     <link rel="stylesheet" href="styles/chamber-large.css">
     <script src="scripts/chamber.js" defer></script>
-    <script src="scripts/chamber-home.js" defer></script>
-    <script src="scripts/forecast.js" defer></script>
     <link rel="icon" href="favicon.ico">
     <title>Evergreen Chamber Of Commerce Directory</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -29,61 +27,20 @@
     </header>
     <nav id="navigation" class="navigate">
         <ul>
-            <li><a href="https://noblesnigeria.github.io/wdd231/chamber/index.html" class="jump">Home</a></li>
+            <li><a href="https://noblesnigeria.github.io/wdd231/chamber/index.html">Home</a></li>
             <li><a href="https://noblesnigeria.github.io/wdd231/chamber/directory.html">Directory</a></li>
-            <li><a href="https://noblesnigeria.github.io/wdd231/chamber/join.html" class="dove">Join</a></li>
+            <li><a href="https://noblesnigeria.github.io/wdd231/chamber/join.html">Join</a></li>
             <li><a href="https://noblesnigeria.github.io/wdd231/chamber/discover.html">Discover</a></li>
         </ul>
     </nav>
     <main>
-        <h1>The Chamber Activities</h1>
-        <aside class="content">
-            <section class="events">
-                <h2>Chamber Events</h2>
-                <table>
-                    <thead>
-                        <tr>
-                            <th colspan="3">Weekly Business Directory</th>
-                        </tr>
-                        <tr>
-                            <th>Week Days</th>
-                            <th>Business Activities</th>
-                            <th>Time</th>
-                        </tr>
-                    </thead>
-                    <tbody id="table-body">
-                        <tr>
-                            <td>Tuesdays</td>
-                            <td>Networking lunch</td>
-                            <td>12:00pm to 1:00pm</td>
-                        </tr>
-
-                        <tr>
-                            <td>Wednesdays</td>
-                            <td>Business Workshop</td>
-                            <td>2:00pm to 4:00pm</td>
-                        </tr>
-
-                        <tr>
-                            <td>Saturdays</td>
-                            <td>Community outreach</td>
-                            <td>10:00am to 12:00pm</td>
-                        </tr>
-                        <tr>
-                            <th colspan="3">Thank you for participation.</th>
-                        </tr>
-                    </tbody>
-
-                    <!-- Business entries will be populated here by JavaScript -->
-                </table>
-            </section>
-            <section id="weather"></section>
-            <section id="members-container">
-                <h2>Chamber Spotlight</h2>
-            </section>
-        </aside>
+        <h1>Business Directory</h1>
+        <button data-level="All">All</button>
+        <button data-level="Gold">Gold</button>
+        <button data-level="Silver">Silver</button>
+        <button data-level="Bronze">Bronze</button>
+        <div id="directory-entries"></div>
     </main>
-    <p>For registration click<a href=""> Join</a></p>
     <footer>
         <aside class="contact">
             <h2>Evergreen</h2>

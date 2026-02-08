@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="This is the business directory page for the Chamber of Commerce, We connect businesses and foster growth in our community.">
+    <meta name="author" content="Nwose Anthony">
+    <meta property="og:title" content="Evergreen Chamber of Commerce">
+    <meta property="og:description" content="Evergreen Chamber of Commerce - Connecting Businesses, Fostering Growth">
+    <meta property="og:image" content=" https://noblesnigeria.github.io/wdd231/chamber/images/image.jpg">
+    <meta property="og:url" content=" https://noblesnigeria.github.io/chamber/directory.html">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/chamber-small.css">
+    <link rel="stylesheet" href="styles/chamber-large.css">
+    <script src="scripts/chamber.js" defer></script>
+    <script src="scripts/join.js" defer></script>
+    <script src="scripts/thankyou.js" defer></script>
+    <link rel="icon" href="favicon.ico">
+    <title>Join Evergreen Chamber Of Commerce</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <img src="images/book.svg" alt="Chamber Logo">
+        <span>Evergreen Chamber Of Commerce</span>
+        <button id="ham-btn" class="hamburger"></button>
+    </header>
+    <nav id="navigation" class="navigate">
+        <ul>
+            <li><a href="https://noblesnigeria.github.io/wdd231/chamber/index.html">Home</a></li>
+            <li><a href="https://noblesnigeria.github.io/wdd231/chamber/directory.html">Directory</a></li>
+            <li><a href="">Join</a></li>
+            <li><a href="https://noblesnigeria.github.io/wdd231/chamber/discover.html">Discover</a></li>
+        </ul>
+    </nav>
+    <main id="design">
+        <h1>The Join page Chambers of Commerce</h1>
+        <form method="get" autocomplete="on" action="thankyou.html" id="join">
+            <fieldset>
+                <legend>Organization Membership Application</legend>
+                <label for="first-name">First Name
+                    <input type="text" name="first-name" id="first-name" autocomplete="given-name" title="First Name" required>
+                </label>
+
+                <label for="last-name">Last Name
+                    <input type="text" name="last-name" id="last-name" autocomplete="family-name" title="Last Name" required>
+                </label>
+
+                <label for="organization-title">Organization Title
+                    <input
+                        type="text"
+                        name="organization-title"
+                        id="organization-title"
+                        autocomplete="organization-title"
+                        pattern="[A-Za-z\s]{7,}"
+                        minlength="7" title="Organization Title">
+                </label>
+
+                <label for="email">Email Address
+                    <input
+                    type="email"
+                    name="email"
+                    id="email"
+                    autocomplete="email"
+                    placeholder="nobles@gmail.com"
+                    required title="Email Address">
+                </label>
+
+                <label for="phoneNumber">Phone Number
+                    <input
+                    type="tel"
+                    name="phoneNumber"
+                    id="phoneNumber"
+                    autocomplete="tel"
+                    placeholder="Phone number"
+                    required title="Phone Number">
+                </label>
+
+                <label for="organization-name">Organization Name
+                    <input
+                    type="text"
+                    name="organization-name"
+                    id="organization-name"
+                    autocomplete="organization"
+                    title="Organization Name"
+                    required>
+                </label>
+
+                <label for="membership-level">Membership Level
+                    <select name="membership-level" id="membership-level" title="Membership Level">
+                        <option value="">Select Membership Level</option>
+                        <option value="Gold">Gold</option>
+                        <option value="Silver">Silver</option>
+                        <option value="Bronze">Bronze</option>
+                        <option value="NPO">Non-Profit Organization</option>
+                    </select>
+                </label>
+
+                <label for="organization">Organization Description
+                    <textarea
+                        id="organization"
+                        name="organization-description"
+                        placeholder="Describe your organization"
+                        title="Organization Description">
+                    </textarea>
+                </label>
+
+                <input type="hidden" name="timestamp" id="timestamp">
+
+                <button type="submit">Submit</button>
+
+            </fieldset>
+
+
+        </form>
+        <section>
+            <div class="buttons">
+                <button data-level="Gold" id="gold">Gold</button>
+                <button data-level="Silver" id="silver">Silver</button>
+                <button data-level="Bronze" id="bronze">Bronze</button>
+                <button data-level="NPO" id="npo">NPO</button>
+            </div>
+
+            <div id="card" class="membership-card">
+                <h2>Select a membership</h2>
+                <p>Click a button above</p>
+            </div>
+            <dialog id="gold-benefits">
+                <h2>Gold members benefits</h2>
+                <p>* All members in this level are members of the management board.</p>
+                <p>* They're members of the board of trustee.</p>
+                <p>* They have unlimited adverts slots.</p>
+                <p>* They have 40% extra share in profit disbursement.</p>
+                <p>*  They have unlimited business workshops.</p>
+                <button id="close-gold">close</button>
+
+            </dialog>
+            <dialog id="silver-benefits">
+                <h2>Silver members benefits</h2>
+                <p>* These members have unlimited business workshops.</p>
+                <p>* All members in this level are members of the management board.</p>
+                <p>* They have 60% advertisement slots.</p>
+                <p>* They have 70% share in profit disbursement.</p>
+                <button id="close-silver">close</button>
+
+            </dialog>
+            <dialog id="bronze-benefits">
+                <h2>Bronze member benefits</h2>
+                <p>* These members have unlimited business workshops.</p>
+                <p>* They have 60% share in profit disbursement.</p>
+                <p>* They have 40% advertisement slots.</p>
+                <button id="close-bronze">close</button>
+            </dialog>
+            <dialog id="npo-benefits">
+                <h2>NPO member benefits</h2>
+                <p>* These members attend business workshops on invitations.</p>
+                <p>* They receive funds for services.</p>
+                <button id="close-npo">close</button>
+            </dialog>
+        </section>
+    </main>
+    <footer>
+        <aside class="contact">
+            <h2>Evergreen</h2>
+            <p>9, Idara avenue off Imafidon street, Evboneka </p>
+            <p>Benin City, Edo State, Nigeria.</p>
+            <p>Phone: +234 838090539</p>
+            <p>Email:noblesnigeria@gmail.com</p>
+        </aside>
+        <aside class="media">
+            <a href="https://github.com/NoblesNigeria"><img src="images/facebook.svg" alt="facebook" width="100" height="100"></a>
+            <a href="https://github.com/NoblesNigeria"><img src="images/github.svg" alt="Github" width="100" height="100"></a>
+            <a href="https://github.com/NoblesNigeria"><img src="images/linkedin.svg" alt="Linkedin" width="100" height="100"></a>
+        </aside>
+        <aside class="copy-right">
+            <h2>WDD 231 Class Project</h2>
+            <h3>Nwose Anthony</h3>
+            <p>&copy; <span class="current-year"></span> Evergreen</p>
+            <p>Last modified: <span class="lastModified"></span></p>
+        </aside>
+    </footer>
+</body>
+</html>
