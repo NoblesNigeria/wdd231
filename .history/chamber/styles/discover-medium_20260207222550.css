@@ -1,0 +1,10 @@
+@media only screen and (min-width: 38rem){
+    #discover-container section{
+        display:grid;
+        gri
+        grid-template-areas:
+        "image name"
+        "image description";
+    }
+
+}

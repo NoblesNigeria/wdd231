@@ -1,0 +1,13 @@
+@media only screen and (min-width: 38rem){
+    #discover-container section{
+        grid-template-areas:
+        "name image"
+        "description image"
+        "address image";
+    }
+    #discover-container img:hover{
+        background-color: gray;
+        
+    }
+
+}

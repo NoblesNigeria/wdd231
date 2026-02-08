@@ -1,0 +1,13 @@
+@media only screen and (min-width: 38rem){
+    #discover-container section{
+    overflow: hidden;
+    border: 1px solid black;
+    display: grid;
+    grid-template-columns: 300px;
+    justify-content: center;
+    grid-template-areas:
+    "name"
+    "description"
+    "image";
+}
+}

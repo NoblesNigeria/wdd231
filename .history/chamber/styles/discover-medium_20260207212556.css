@@ -1,0 +1,19 @@
+@media only screen and (min-width: 48rem){
+    #discover-container section{
+    grid-template-areas:
+    "image name"
+    "image description"
+    "image";
+    }
+    #discover-container section p{
+    grid-area: name description;
+    }
+    #discover section h2{
+    grid-area: name;
+    }
+    #discover section img{
+    grid-area: image;
+    width: 300px;
+
+    }
+}
