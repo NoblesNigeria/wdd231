@@ -1,0 +1,70 @@
+@media only screen and (min-width: 50rem) {
+    body{
+        width: 900px;
+        margin-left: 200px;
+    }
+    header{
+        grid-template-columns: 24px auto;
+        font-size: 42px;
+        padding: 15px;
+    }
+    #navigation{
+        display:block;
+        padding: 5px;
+    }
+    .hamburger{
+        display:none;
+    }
+    .navigate ul{
+        display:flex;
+        flex-direction: row;
+        gap: 15px;
+    }
+    .content{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    .events{
+        grid-column: 1;
+    }
+    #weather{
+        grid-column: 2;
+    }
+    #members-container{
+        grid-column: 3;
+    }
+    #directory-entries{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    desi
+    #discover-container{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        justify-content: center;
+    }
+    #discover-container img{
+        width: 300px;
+        height: 200px;
+    }
+    #discover-container p{
+        font-size: 0.8rem;
+        padding: 20px;
+    }
+    footer{
+        display: grid;
+        grid-template-columns: auto auto auto;
+        align-items: center;
+    }
+    .contact{
+        grid-column: 1;
+    }
+    .media{
+        grid-column: 2;
+        justify-content: center;
+    }
+    .copy-right{
+        grid-column: 3;
+    }
+
+}

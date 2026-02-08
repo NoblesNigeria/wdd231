@@ -1,0 +1,42 @@
+@media only screen and (min-width: 38rem){
+    #discover-container section{
+        grid-template-areas:
+        "name image"
+        "description image"
+        "address image";
+    }
+    #discover-container img:hover{
+        background-color: gray;
+        opacity: 0.7;
+    }
+    .content{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    .events{
+        grid-column: 1;
+    }
+    #weather{
+        grid-column: 2;
+    }
+    #members-container{
+        grid-column: 3;
+    }
+    #directory-entries{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    #design{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    #join{
+        grid-column: 1;
+    }
+    .buttons{
+        grid-column: 2;
+    }
+
+}
+
+}
