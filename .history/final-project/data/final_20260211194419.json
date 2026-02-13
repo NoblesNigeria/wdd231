@@ -1,0 +1,34 @@
+{
+    "gallary":[
+    {
+        "name": "maggot-pen1",
+        "description": "A commercial maggot pen designed for large-scale production, featuring multiple compartments for different stages of maggot development and easy access for harvesting.",
+        "imageUrl": "images/maggot-pen1.webp"
+    },
+    {
+        "name": "maggot-pen2",
+        "description": "A modern maggot pen designed for efficient breeding and harvesting of maggots, featuring a controlled environment to optimize growth and minimize odors.",
+        "imageUrl": "images/maggot-pen2.webp"
+    },
+    {
+        "name": "maggot-pen3",
+        "description": "A traditional maggot pen that incorporates sustainable materials and advanced ventilation systems to enhance the breeding process.",
+        "imageUrl": "images/maggot-pen3.webp"
+    },
+    {
+        "name": "Dried maggot",
+        "description": "A dried maggot, from a traditional drying facility, ready for sale.",
+        "imageUrl": "images/maggot-pen1.webp"
+    },
+    {
+        "name": "processed maggot",
+        "description": "Dried harvested maggot from local drying methods",
+        "imageUrl": "images/maggot2.webp"
+    },
+    {
+        "name": "",
+        "description": "Harvesting maggot in a grow out ",
+        "imageUrl": "imgaes/maggot8.webp"
+    }
+    ]
+}

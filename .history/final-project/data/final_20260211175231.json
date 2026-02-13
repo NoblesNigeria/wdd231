@@ -1,0 +1,19 @@
+{
+    "gallary":[
+    {
+        "name": "maggot-pen1",
+        "description": "A c",
+        "imageUrl": "images/maggot-pen1.webp"
+    },
+    {
+        "name": "maggot-pen2",
+        "description": "A modern maggot pen designed for efficient breeding and harvesting of maggots, featuring a controlled environment to optimize growth and minimize odors.",
+        "imageUrl": "images/maggot-pen2.webp"
+    },
+    {
+        "name": "maggot-pen3",
+        "description": "An innovative maggot pen that incorporates sustainable materials and advanced ventilation systems to enhance the breeding process while reducing environmental impact.",
+        "imageUrl": "images/maggot-pen3.webp"
+    }
+    ]
+}
