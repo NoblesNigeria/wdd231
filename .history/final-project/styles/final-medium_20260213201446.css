@@ -1,0 +1,18 @@
+@media only screen and (min-width: 38rem){
+    #directory-entries section{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-areas:
+    "image name"
+    "image description"
+    ;
+    border: 2px solid blue;
+    padding: 30px;
+    margin-top: 10px;
+}
+#directory-entries img{
+    width: 350px;
+    height: 250px;
+}
+
+}
