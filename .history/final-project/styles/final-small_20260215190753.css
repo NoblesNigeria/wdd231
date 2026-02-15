@@ -117,8 +117,12 @@ button:hover{
 }
 #notification{
     padding: 5px;;
-    width: 80px;
+    solidwidth: 80px;
     margin-top: 5px;
+    -webkit-border-radius:;
+    -moz-border-radius:;
+    -ms-border-radius:;
+    -o-border-radius:;
 }
 #address{
     color: green;

@@ -116,9 +116,13 @@ button:hover{
     background-color: green;
 }
 #notification{
-    padding: 5px;;
-    width: 80px;
+    padding: 5px;
+    border-radius:;solidwidth: 80px;
     margin-top: 5px;
+    -webkit-border-radius: 2px solid;
+    -moz-border-radius: 2px solid;
+    -ms-border-radius: 2px solid;
+    -o-border-radius: 2px solid;
 }
 #address{
     color: green;
