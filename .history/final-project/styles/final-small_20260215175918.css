@@ -113,13 +113,8 @@ label input{
     padding: 5px;
 }
 button:hover{
+  
     background-color: green;
-}
-#notification{
-    padding: 5px;
-    border-radius: 2px solid;
-    width: 80px;
-    margin-top: 5px;
 }
 #address{
     color: green;

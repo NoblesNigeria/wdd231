@@ -117,9 +117,7 @@ button:hover{
 }
 #notification{
     padding: 5px;
-    border-radius: 2px solid;
-    width: 80px;
-    margin-top: 5px;
+    border-radius: 2px solid blue;
 }
 #address{
     color: green;
